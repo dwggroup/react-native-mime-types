@@ -1,19 +1,30 @@
 {
-  "name": "react-native-mime-types",
-  "description": "The ultimate javascript content-type utility.",
+  "name": "@dwggroup/react-native-mime-types",
+  "description": "forked from https://github.com/Liroo/react-native-mime-types",
   "version": "2.3.0",
   "contributors": [
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
     "Jeremiah Senkpiel <fishrock123@rocketmail.com> (https://searchbeam.jit.su)",
     "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
-    "Pierre Monge <pierre.monge@epitech.eu"
+    "Pierre Monge <pierre.monge@epitech.eu>",
+    "Studiengemeinschaft Darmstadt GmbH <it-support@sgd.de> (https://github.com/dwggroup)"
   ],
   "license": "MIT",
   "keywords": [
     "mime",
     "types"
   ],
-  "repository": "Liroo/react-native-mime-types",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwggroup/react-native-mime-types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dwggroup/react-native-mime-types/issues"
+  },
+  "homepage": "https://github.com/dwggroup/react-native-mime-types#readme",
   "dependencies": {
     "mime-db": "~1.37.0"
   },
@@ -23,11 +34,12 @@
     "eslint-plugin-promise": "3.4.0",
     "eslint-plugin-standard": "2.0.1",
     "istanbul": "0.4.5",
-    "mocha": "1.21.5"
+    "mocha": "10.1.0"
   },
   "files": [
     "HISTORY.md",
     "LICENSE",
+    "index.d.ts",
     "index.js"
   ],
   "engines": {

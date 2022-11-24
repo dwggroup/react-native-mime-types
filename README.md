@@ -1,5 +1,9 @@
 # mime-types
 
+> forked from https://github.com/Liroo/react-native-mime-types
+> 
+> Changed typings + GH Package deployment
+
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
 [![Node.js Version][node-version-image]][node-version-url]
@@ -20,8 +24,14 @@ Otherwise, the API is compatible.
 
 ## Install
 
+`.npmrc`
+
+```
+@dwggroup:registry=https://npm.pkg.github.com/
+```
+
 ```sh
-$ yarn add react-native-mime-types
+$ yarn add @dwggroup/react-native-mime-types
 ```
 
 ## Adding Types
@@ -32,7 +42,7 @@ so open a PR there if you'd like to add mime types.
 ## API
 
 ```js
-import * as mime from 'react-native-mime-types';
+import * as mime from '@dwggroup/react-native-mime-types';
 ```
 
 All functions return `false` if input is invalid or not found.
