@@ -1,7 +1,7 @@
 {
   "name": "@dwggroup/react-native-mime-types",
   "description": "forked from https://github.com/Liroo/react-native-mime-types",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "contributors": [
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
     "Jeremiah Senkpiel <fishrock123@rocketmail.com> (https://searchbeam.jit.su)",
